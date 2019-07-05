@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Nelson Bighetti
+name: Gyunam Park
 
 # Username (this should match the folder name)
 authors:
@@ -10,31 +10,29 @@ authors:
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Master student
 
 # Organizations/Affiliations
 organizations:
-- name: Stanford University
+- name: POSTECH (Pohang University of Science and Technology)
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include process mining, data science, online operational support and machine learning.
 
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Process Mining
+- Data Science
+- Online Operational Support
+- Machine Learning
 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
+  - course: M.S. in Industrial & Management Engineering
+    institution: POSTECH (Pohang University of Science and Technology)
+    year: 2019
+  - course: B.S. in Technology Management and Computer Science
+    institution: UNIST (Ulsan National Institute of Science and Technology)
     year: 2008
 
 # Social/Academic Networking
@@ -55,21 +53,19 @@ social:
   icon_pack: fab
   link: https://github.com/gcushen
 # Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+ #- icon: cv
+ # icon_pack: ai
+ # link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
-  
+
 # Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.  
+#   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
 - Researchers
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+Gyunam Park received the B.S. degree in business administration and computer science from UNIST (Ulsan National Institute of Science and Technology), Ulsan, South Korea, in 2017. He is currently a Master student in the Department of Industrial & Management Engineering at POSTECH (Pohang University of Science and Technology). His research interest includes process mining, data science, online operational support, machine learning, and deep learning.
