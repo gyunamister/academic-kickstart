@@ -10,12 +10,12 @@ authors:
 superuser: true
 
 # Role/position
-role: Master student
+role: Ph.D. Student
 
 # Organizations/Affiliations
 organizations:
-- name: POSTECH (Pohang University of Science and Technology)
-  url: ""
+- name: PADS (chair of Process and Data Science), Computer Science, RWTH-Aachen University
+  url: "https://www.pads.rwth-aachen.de/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include process mining, data science, online operational support and machine learning.
@@ -42,13 +42,13 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: "gnpark@postech.ac.kr"  # For a direct email link, use "mailto:test@example.org".
+  link: "gnpark@pads.rwth-aachen.de"  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/gyunamister
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://scholar.google.com/citations?user=pizUQ6gAAAAJ&hl=ko
 - icon: github
   icon_pack: fab
   link: https://github.com/gyunamister
@@ -68,4 +68,4 @@ user_groups:
 - Visitors
 ---
 
-Gyunam Park received the B.S. degree in business administration and computer science from UNIST (Ulsan National Institute of Science and Technology), Ulsan, South Korea, in 2017. He is currently a Master student in the Department of Industrial & Management Engineering at POSTECH (Pohang University of Science and Technology). His research interest includes process mining, data science, online operational support, machine learning, and deep learning.
+Gyunam Park is currently a Ph.D. student at the chair of Process and Data Science (PADS), Computer Science, RWTH-Aahcen University since 2019. His research interest includes process mining, data science, online operational support, machine learning, and deep learning. He received M.Sc. degree in in the Department of Industrial & Management Engineering at POSTECH (Pohang University of Science and Technology), Pohang, South Korea. He received the B.S. degree in business administration and computer science from UNIST (Ulsan National Institute of Science and Technology), Ulsan, South Korea.
