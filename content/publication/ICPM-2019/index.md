@@ -35,7 +35,7 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf:https://ieeexplore.ieee.org/document/8786063
+url_pdf: https://ieeexplore.ieee.org/document/8786063
 url_code:
 url_dataset:
 url_poster:

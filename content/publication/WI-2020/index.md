@@ -36,7 +36,7 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf:https://www.researchgate.net/publication/337651930_From_predictive_to_prescriptive_process_monitoring_Recommending_the_next_best_actions_instead_of_calculating_the_next_most_likely_events
+url_pdf: https://www.researchgate.net/publication/337651930_From_predictive_to_prescriptive_process_monitoring_Recommending_the_next_best_actions_instead_of_calculating_the_next_most_likely_events
 url_code:
 url_dataset:
 url_poster:
