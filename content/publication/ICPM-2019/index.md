@@ -1,3 +1,4 @@
+---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Prediction-based Resource Allocation using LSTM and Minimum Cost and Maximum Flow Algorithm"
@@ -65,3 +66,5 @@ projects: []
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
 slides: ""
+---
+
