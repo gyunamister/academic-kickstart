@@ -1,30 +1,30 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Predicting performances in business processes using deep neural networks"
+title: "Prediction-based Resource Allocation using Bayesian Neural Networks and Minimum Cost and Maximum Flow Algorithm"
 authors: [Gyunam Park, Minseok Song]
-date: 2020-01-02
-doi: "10.1016/j.dss.2019.113191"
+date: 2019-10-11
+doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2020-01-23T20:06:53+01:00
+publishDate: 2020-01-23T20:13:24+01:00
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["2"]
+publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Predicting performances in business processes using deep neural networks"
+publication: ""
 publication_short: ""
 
-abstract: "Online operational support is gaining increasing interest due to the availability of real-time data and sufficient computing power, such as predictive business process monitoring. Predictive business process monitoring aims at providing timely information that enables proactive and corrective actions to improve process enactments and mitigate risks. There are a handful of research works focusing on the predictions at the instance level. However, it is more practical to predict the performance of processes at the process model level and detect potential weaknesses in the process to facilitate the proactive actions that will improve the process execution. Thus, in this paper, we propose a novel method to predict the future performances of a business process at the process model level. More in detail, we construct an annotated transition system and generate a process representation matrix from it. Based on the process representation matrix, we build performance prediction models using deep neural networks that consider both spatial and temporal dependencies present in the underlying business process. To validate the proposed method, we performed case studies on three real-life logs."
+abstract: "Predictive business process monitoring aims at providing predictions about running instances by analyzing logs of completed cases in a business process. Recently, a lot of research focuses on increasing productivity and efficiency in a business process by forecasting potential problems during its executions. However, most of the studies lack suggesting concrete actions to improve the process. They leave it up to the subjective judgment of a user. In this paper, we propose a novel method to connect the results from predictive business process monitoring to actual business process improvements. More in detail, we optimize the resource allocation in a non-clairvoyant online environment, where we have limited information required for scheduling, by exploiting the predictions. The proposed method integrates the offline prediction model construction that predicts the processing time and the next activity of an ongoing instance using Bayesian Neural Networks (BNNs) with the online resource allocation that is extended from the minimum cost and maximum flow algorithm. To validate the proposed method, we performed experiments using an artificial event log and a real-life event log from a global financial organization."
 
 # Summary. An optional shortened abstract.
 summary: ""
 
-tags: [Paper,Prediction,DSS]
+tags: []
 categories: []
 featured: false
 
@@ -36,7 +36,7 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: https://www.sciencedirect.com/science/article/pii/S0167923619302209?via%3Dihub
+url_pdf:https://arxiv.org/abs/1910.05126
 url_code:
 url_dataset:
 url_poster:
