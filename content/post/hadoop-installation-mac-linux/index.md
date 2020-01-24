@@ -27,9 +27,12 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 
+
 ---
 
 # The (easiest) Hadoop installation - MacOS/Linux
+
+*(Last updated: 24. Jan. 2020 14:00)*
 
 This blog post is a supplement for Hadoop instruction at *Introduction to Data Science, RWTH-Aachen*. The goal is to make sure that everyone can run Hadoop at his/her PC. Thus, I aim for explaining how to install Hadoop in the easiest manner by taking the simplest approach. This is not a succint way to install Hadoop (If you think you are quite familar with how (system-related) things work, I recommend you to find other blog posts).
 
@@ -85,24 +88,28 @@ Go to "/usr/local/Cellar/hadoop-2.8.4/etc/hadoop". You will see a bunch of files
 
    - Replace a block
 
-     - <configuration>
+     - ```
+       <configuration>
 
-       ​	...
+       ...
 
        </configuration>
+       ```
 
    - into
 
-     - <configuration>
-         <property>
-           <name>yarn.nodemanager.aux-services</name>
-           <value>mapreduce_shuffle</value>
-         </property>
+     - ```
+       <configuration>
+       <property>
+         <name>yarn.nodemanager.aux-services</name>
+         <value>mapreduce_shuffle</value>
+       </property>
        <property>
            <name>yarn.nodemanager.auxservices.mapreduce.shuffle.class</name>
            <value>org.apache.hadoop.mapred.ShuffleHandler</value>
          </property>
        </configuration>
+       ```
 
 2. core-site.xml
 
@@ -110,24 +117,28 @@ Go to "/usr/local/Cellar/hadoop-2.8.4/etc/hadoop". You will see a bunch of files
 
    - Replace a block
 
-     - <configuration>
+     - ```
+       <configuration>
 
-       ​	...
+       ...
 
        </configuration>
+       ```
 
    - into
 
-     - <configuration>
-         <property>
-           <name>hadoop.tmp.dir</name>
-           <value>/usr/local/Cellar/hadoop/hdfs/tmp</value>
-         </property>
-         <property>
-           <name>fs.defaultFS</name>
-           <value>hdfs://localhost:9000</value>
-         </property>
+     - ```
+       <configuration>
+       <property>
+         <name>hadoop.tmp.dir</name>
+         <value>/usr/local/Cellar/hadoop/hdfs/tmp</value>
+       </property>
+       <property>
+         <name>fs.defaultFS</name>
+         <value>hdfs://localhost:9000</value>
+       </property>
        </configuration>
+       ```
 
 3. hdfs-site.xml
 
@@ -135,35 +146,40 @@ Go to "/usr/local/Cellar/hadoop-2.8.4/etc/hadoop". You will see a bunch of files
 
    - Replace a block
 
-     - <configuration>
+     - ```
+       <configuration>
 
-       ​	...
+       ...
 
        </configuration>
+       ```
 
    - into
-     - <configuration>
-         <property>
-           <name>dfs.replication</name>
-           <value>2</value>
-         </property>
-         <property>
-           <name>dfs.permissions</name>
-           <value>false</value>
-         </property>
-         <property>
-           <name>dfs.namenode.name.dir</name>
-           <value>/usr/local/Cellar/hadoop-2.8.4/data/dfs/namenode</value>
-         </property>
-         <property>
-           <name>dfs.namenode.checkpoint.dir</name>
-           <value>/usr/local/Cellar/hadoop-2.8.4/data/dfs/namesecondary</value>
-         </property>
-         <property>
-           <name>dfs.datanode.data.dir</name>
-           <value>/usr/local/Cellar/hadoop-2.8.4/data/dfs/datanode</value>
-         </property>
+
+     - ```
+       <configuration>
+       <property>
+         <name>dfs.replication</name>
+         <value>2</value>
+       </property>
+       <property>
+         <name>dfs.permissions</name>
+         <value>false</value>
+       </property>
+       <property>
+         <name>dfs.namenode.name.dir</name>
+         <value>/usr/local/Cellar/hadoop-2.8.4/data/dfs/namenode</value>
+       </property>
+       <property>
+         <name>dfs.namenode.checkpoint.dir</name>
+         <value>/usr/local/Cellar/hadoop-2.8.4/data/dfs/namesecondary</value>
+       </property>
+       <property>
+         <name>dfs.datanode.data.dir</name>
+         <value>/usr/local/Cellar/hadoop-2.8.4/data/dfs/datanode</value>
+       </property>
        </configuration>
+       ```
 
 4. mapred-site.xml
 
@@ -171,24 +187,28 @@ Go to "/usr/local/Cellar/hadoop-2.8.4/etc/hadoop". You will see a bunch of files
 
    - Replace a block
 
-     - <configuration>
+     - ```
+       <configuration>
 
-       ​	...
+       ...
 
        </configuration>
+       ```
 
    - into
 
-   - <configuration>
-     <property>
-       <name>mapred.job.tracker</name>
-       <value>localhost:9010</value>
-     </property>
-     <property>
-       <name>mapreduce.framework.name</name>
-       <value>yarn</value>
-     </property>
-     </configuration>
+     - ```
+       <configuration>
+       <property>
+         <name>mapred.job.tracker</name>
+         <value>localhost:9010</value>
+       </property>
+       <property>
+         <name>mapreduce.framework.name</name>
+         <value>yarn</value>
+       </property>
+       </configuration>
+       ```
 
 5. hadoop-env.sh
 
