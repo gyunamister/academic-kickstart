@@ -28,7 +28,7 @@ image:
 projects: []
 ---
 
-# Hadoop Hands-On (Process Mining with Hadoop)
+# Hadoop Hands-on
 
 *(Last updated: 31. January. 2020)*
 
@@ -56,7 +56,7 @@ The motivation is that we store the massive volume of data into multiple cheap c
 
 The first phase of hadoop was composed of Hadoop Distributed File System (HDFS), which is used for storing data, and MapReduce programming model, which is used for distributing computation. The second phase of hadoop was more elaborated by separating the resource management functionality of previous MapReduce into Yarn and introducing more specialized applications like Hive, which is used for making queries. In the third phase, it becomes much more elaborated, and there are hundreds of applications available in the context of Hadoop framework, which are used for machine learning, streaming data analysis, cloud environment, etc.
 
-{{< figure src="hadoop-history.png" title="Hadoop History" lightbox="true" >}}
+{{< figure src="hadoop-history.png" lightbox="true" >}}
 
 The best way to understand how Hadoop works is to learn about **HDFS and MapReduce**, which are basic building blocks for various other applications.
 
@@ -64,7 +64,7 @@ The best way to understand how Hadoop works is to learn about **HDFS and MapRedu
 
 If you upload a file into DFS, it is split into data blocks, and each of them is stored into different nodes. For the purpose of fault tolerance, you can make copies of those blocks and store them into different nodes. Let's say you have two files, *file1.txt and file2.txt*. They are divided into three and two blocks, respectively. Each block is copied three times, and stored into data nodes. For example, *file1.txt* is splited into three blocks, and the three copies of block *A* are stored at data node #1, #2, and #4. It gurantees fault tolerance, i.e., even though data node #1 fails, there are data node #2 and #4, which are still running.
 
-{{< figure src="hdfs-example.png" title="HDFS example" lightbox="true" >}}
+{{< figure src="hdfs-example.png" lightbox="true" >}}
 
 So, how can we upload data into HDFS? Let's have a look at some basic commands for HDFS.
 
@@ -155,7 +155,7 @@ Assume that this file is split into three blocks, each of which contains one sen
 
 MR consists of three functions, *map*, *suffle*, and *reduce*. Map function $map \in K_1 \times V_1 \to (K_2 \times V_2)^*$ maps tuples into sets of tuples.
 
-{{< figure src="map-example.png" title="Map example" lightbox="true" >}}
+{{< figure src="map-example.png" lightbox="true" >}}
 
 For example, the block 1 (i.e., sentence 1), $(block_1, the \; quick \; brown \; fox)$ is mapped into $\{ (the,1),(brown,1),(fox,1),(quick,1) \}$. The block 2 (i.e., sentence 2), $(block_2,the \; fox \; the \; ate \; mouse)$, is mapped into $\{ (the,1),(fox,1),(the,1),(ate,1),(mouse,1) \}$.
 
@@ -163,19 +163,19 @@ For example, the block 1 (i.e., sentence 1), $(block_1, the \; quick \; brown \;
 
 Suffle function $suffle \in (K_2 \times V_2)^* \to K_2 \times (V_2)^*$ maps sets of tuples into tuples of a key and a set.
 
-{{< figure src="shuffle-example.png" title="Shuffle example" lightbox="true" >}}
+{{< figure src="shuffle-example.png" lightbox="true" >}}
 
 For example, $(brown,1)$ from block 1 and $(brown,1) $ from block 2 are mapped into $(brown,[1,1])$.
 
 Reduce function $reduce \in K_2 \times (V_2)^* \to (K_3 \times V_3)^*$ maps tuples of a key and a set to sets of tuples.
 
-{{< figure src="reduce-example.png" title="Reduce example" lightbox="true" >}}
+{{< figure src="reduce-example.png" lightbox="true" >}}
 
 #### 2.2. Excercise
 
 - For the input document, calculate the total price for each invoice ID. Presume you use MapReduce to do this, please write down the output of each Map function, the output after shuffle, and the output of Reduce function.
 
-  {{< figure src="pricesum-input.png" title="Input for Price Sum" lightbox="true" style="zoom:50%;" >}}
+  {{< figure src="pricesum-input.png" lightbox="true" style="zoom:50%;" >}}
 
 
 
@@ -290,13 +290,13 @@ The answer is to use Hadoop framework. We can distribute the event log into mult
 
 Below is the overview of our approach
 
-{{< figure src="pm-overview.png" title="Overview" lightbox="true" style="zoom:67%;" >}}
+{{< figure src="pm-overview.png" lightbox="true" style="zoom:67%;" >}}
 
 #### 4.1. MapReduce Task (1)
 
 Below is the description of how it works:
 
-{{< figure src="pm-task1.png" title="Overview" lightbox="true" style="zoom:67%;" >}}
+{{< figure src="pm-task1.png" lightbox="true" style="zoom:67%;" >}}
 
 ##### 4.1.1 Map function
 
@@ -353,7 +353,7 @@ if current_case == caseid:
 
 Below is the description of how it works:
 
-{{< figure src="pm-task2.png" title="Overview" lightbox="true" style="zoom:67%;" >}}
+{{< figure src="pm-task2.png" lightbox="true" style="zoom:67%;" >}}
 
 ##### 4.2.1. Map function
 
