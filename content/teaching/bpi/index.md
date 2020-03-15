@@ -1,21 +1,21 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Introducton to Data Science"
+title: "Business Process Intelligence"
 event:
 event_url:
 location:
-summary: "Master Course at Computer Science, RWTH-Aachen University (10.2019 ~ Ongoing)"
+summary: "Undergraduate Course at Computer Science, RWTH-Aachen University (04.2020 ~ Ongoing)"
 abstract:
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: Winter Semester 2019
-date_end: ongoing
+date: 2020-03-15T18:29:36+01:00
+date_end: 2020-03-15T18:29:36+01:00
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: 2020-03-15T18:16:35+01:00
+publishDate: 2020-03-15T18:29:36+01:00
 
 authors: []
 tags: []
