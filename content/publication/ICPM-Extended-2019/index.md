@@ -16,7 +16,7 @@ publishDate: 2020-01-23T20:13:24+01:00
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
+publication: "under review"
 publication_short: ""
 
 abstract: "Predictive business process monitoring aims at providing predictions about running instances by analyzing logs of completed cases in a business process. Recently, a lot of research focuses on increasing productivity and efficiency in a business process by forecasting potential problems during its executions. However, most of the studies lack suggesting concrete actions to improve the process. They leave it up to the subjective judgment of a user. In this paper, we propose a novel method to connect the results from predictive business process monitoring to actual business process improvements. More in detail, we optimize the resource allocation in a non-clairvoyant online environment, where we have limited information required for scheduling, by exploiting the predictions. The proposed method integrates the offline prediction model construction that predicts the processing time and the next activity of an ongoing instance using Bayesian Neural Networks (BNNs) with the online resource allocation that is extended from the minimum cost and maximum flow algorithm. To validate the proposed method, we performed experiments using an artificial event log and a real-life event log from a global financial organization."
