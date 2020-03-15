@@ -1,15 +1,15 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Development of best reference resource mining algorithm, *in cooperation with Samsung Electronics*,  02.2017 ~ 12.2017"
+title: "Root cause analysis of bottlenecks in FAB, *in cooperation with Samsung Electronics*,  02.2019 ~ 01.2020"
 summary: ""
 authors: []
-tags: [manufacturing, samsung, aim]
-categories: [manufacturing]
-date: 2017/02 ~ 2017/12
+tags: []
+categories: []
+date: 2020-03-15T17:59:29+01:00
 
 # Optional external URL for project (replaces project detail page).
-external_link: "http://aim.postech.ac.kr/index.php/best-reference/"
+external_link: "http://aim.postech.ac.kr/index.php/samsung-fab/"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

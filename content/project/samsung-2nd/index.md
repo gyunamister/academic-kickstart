@@ -1,15 +1,15 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Development of best reference resource mining algorithm, *in cooperation with Samsung Electronics*,  02.2017 ~ 12.2017"
+title: "Development of algorithm for recommending best resource path using AI, *in cooperation with Samsung Electronics*,  02.2018 ~ 12.2018"
 summary: ""
 authors: []
 tags: [manufacturing, samsung, aim]
 categories: [manufacturing]
-date: 2017/02 ~ 2017/12
+date: 2020-03-15T17:59:26+01:00
 
 # Optional external URL for project (replaces project detail page).
-external_link: "http://aim.postech.ac.kr/index.php/best-reference/"
+external_link: "http://aim.postech.ac.kr/index.php/projects/"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
