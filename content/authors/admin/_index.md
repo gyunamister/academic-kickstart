@@ -18,17 +18,19 @@ organizations:
   url: "https://www.pads.rwth-aachen.de/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include process mining, data science, online operational support and machine learning.
+bio: My research interests include process mining, data mining, machine learning, explainalbe prediction, and recommender system.
 
 interests:
 - Process Mining
-- Data Science
-- Online Operational Support
+- Data Mining
 - Machine Learning
+- Explainable Prediction
+- Recommender System
+- Optimization
 
 education:
   courses:
-  - course: M.S. in Industrial & Management Engineering
+  - course: M.S. in [Indstrial & Management Engineering](https://ime.postech.ac.kr/)
     institution: POSTECH (Pohang University of Science and Technology)
     year: 2019
   - course: B.S. in Technology Management and Computer Science
