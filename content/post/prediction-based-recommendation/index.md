@@ -27,7 +27,6 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
-# Prediction-based recommendation in process mining
 
 *(This post is also uploaded at [PADS blog](https://blog.rwth-aachen.de/pads/))*.
 
