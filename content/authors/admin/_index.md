@@ -31,12 +31,11 @@ interests:
 education:
   courses:
   - course: M.S. in Industrial & Management Engineering
-    url: ime.postech.ac.kr
     institution: POSTECH (Pohang University of Science and Technology)
     year: 2019
   - course: B.S. in Technology Management and Computer Science
     institution: UNIST (Ulsan National Institute of Science and Technology)
-    year: 2008
+    year: 2017
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -71,4 +70,4 @@ user_groups:
 - Visitors
 ---
 
-Gyunam Park is currently a Ph.D. student at the chair of Process and Data Science (PADS), Computer Science, RWTH-Aahcen University since 2019. His research interest includes process mining, data science, online operational support, machine learning, and deep learning. He received M.Sc. degree in in the Department of Industrial & Management Engineering at POSTECH (Pohang University of Science and Technology), Pohang, South Korea. He received the B.S. degree in business administration and computer science from UNIST (Ulsan National Institute of Science and Technology), Ulsan, South Korea.
+Gyunam Park is currently a Ph.D. student at the chair of Process and Data Science (PADS), Computer Science, RWTH-Aahcen University, led by [Wil van der Aalst](http://www.padsweb.rwth-aachen.de/wvdaalst/), since 2019. His research interest include process mining, data mining, machine learning, explainalbe prediction, and recommender system. He received M.Sc. degree in in the Department of Industrial & Management Engineering at POSTECH (Pohang University of Science and Technology), Pohang, South Korea. He received the B.S. degree in business administration and computer science from UNIST (Ulsan National Institute of Science and Technology), Ulsan, South Korea.
