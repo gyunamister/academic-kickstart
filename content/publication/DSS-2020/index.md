@@ -16,8 +16,8 @@ publishDate: 2020-01-23T20:06:53+01:00
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Decision Support System"
-publication_short: "DSS"
+publication: "Decision Support Systems"
+publication_short: ""
 
 abstract: "Online operational support is gaining increasing interest due to the availability of real-time data and sufficient computing power, such as predictive business process monitoring. Predictive business process monitoring aims at providing timely information that enables proactive and corrective actions to improve process enactments and mitigate risks. There are a handful of research works focusing on the predictions at the instance level. However, it is more practical to predict the performance of processes at the process model level and detect potential weaknesses in the process to facilitate the proactive actions that will improve the process execution. Thus, in this paper, we propose a novel method to predict the future performances of a business process at the process model level. More in detail, we construct an annotated transition system and generate a process representation matrix from it. Based on the process representation matrix, we build performance prediction models using deep neural networks that consider both spatial and temporal dependencies present in the underlying business process. To validate the proposed method, we performed case studies on three real-life logs."
 

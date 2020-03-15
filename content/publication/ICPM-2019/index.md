@@ -16,8 +16,8 @@ publishDate: 2020-01-23T20:12:37+01:00
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "International Conference on Process Mining"
-publication_short: "ICPM"
+publication: "1st International Conference on Process Mining"
+publication_short: ""
 
 abstract: "Predictive business process monitoring aims at providing the predictions about running instances by analyzing logs of completed cases of a business process. Recently, a lot of research focuses on increasing productivity and efficiency in a business process by forecasting potential problems during its executions. However, most of the studies lack suggesting concrete actions to improve the process. They leave it up to the subjective judgment of a user. In this paper, we propose a novel method to connect the results from predictive business process monitoring to actual business process improvements. More in detail, we optimize the resource allocation in a non-clairvoyant online environment, where we have limited information required for scheduling, by exploiting the predictions. The proposed method integrates offline prediction model construction that predicts the processing time and the next activity of an ongoing instance using LSTM with online resource allocation that is extended from the minimum cost and maximum flow algorithm. To validate the proposed method, we performed experiments using an artificial event log and a real-life event log from a global financial organization."
 

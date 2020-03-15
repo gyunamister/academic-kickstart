@@ -16,8 +16,8 @@ publishDate: 2020-01-23T20:12:43+01:00
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Internationale Tagung Wirtschaftsinformatik"
-publication_short: "WI"
+publication: "14th Internationale Tagung Wirtschaftsinformatik"
+publication_short: ""
 
 abstract: "Predictive business process monitoring (PBPM) deals with predicting a process's future behavior based on historical event logs to support a process's execution. Many of the recent techniques utilize a machine-learned model to predict which event type is the next most likely. Beyond PBPM, prescriptive BPM aims at finding optimal actions based on considering relevant key performance indicators. Existing techniques are geared towards the outcome prediction and deal with alarms for interventions or interventions that do not represent process events. In this paper, we argue that the next event prediction is insufficient for practitioners. Accordingly, this research-in-progress paper proposes a technique for determining next best actions that represent process events. We conducted an intermediate evaluation to test the usefulness and the quality of our technique compared to the most frequently cited technique for predicting next events. The results show a higher usefulness for process participants than a next most likely event."
 
