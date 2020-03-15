@@ -30,7 +30,8 @@ interests:
 
 education:
   courses:
-  - course: M.S. in [Indstrial & Management Engineering](https://ime.postech.ac.kr/)
+  - course: M.S. in Industrial & Management Engineering
+    url: ime.postech.ac.kr
     institution: POSTECH (Pohang University of Science and Technology)
     year: 2019
   - course: B.S. in Technology Management and Computer Science
