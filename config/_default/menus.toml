@@ -10,7 +10,7 @@
 
 [[main]]
   name = "Posts"
-  url = "https://gyunamister.github.io/post/"
+  url = "posts"
   weight = 20
 
 [[main]]
