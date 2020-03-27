@@ -6,7 +6,7 @@ subtitle: ""
 summary: ""
 authors: [Gyunam Park]
 tags: []
-categories: []
+categories: [big data]
 date: 2020-01-31T07:55:14+01:00
 lastmod: 2020-01-31T07:55:14+01:00
 featured: false
