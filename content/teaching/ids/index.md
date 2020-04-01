@@ -60,3 +60,40 @@ slides: ""
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+
+### Course Goal
+
+The course aims to provide a comprehensive overview of data science and expose students to real-life data sets and tools. The course provides three angles on data science:
+
+1. Data science infrastructure concerned with volume and velocity. Topics include instrumentation, big data infrastructures and distributed systems, databases and data management, and programming, and the main challenge is to make things scalable and instant.
+2. Data science analysis concerned with extracting knowledge from data. Topics include statistics, data/process mining, machine learning/artificial intelligence, operations research, algorithms, and visualization, and the main challenge is to provide answers to known and unknown unknowns.
+3. Data science effects concerned with people, organizations, and society. Topics include ethics & privacy, IT law, human-technology interaction, operations management, business models, entrepreneurship, and the main challenge is to do all of the above in a responsible manner.
+
+### The course will dive deeper into the following topics
+
+- Data exploration
+- Data visualization
+- Data quality issues and preparation
+- Data types: from tables and event logs to unstructured data
+- Supervised learning
+- Decision tree learning
+- Unsupervised learning
+- Clustering
+- Pattern mining
+- Process mining
+- Text mining
+- Evaluation techniques
+- Distribution using MapReduce
+- Responsible data science: fairness, accuracy, confidentiality, and transparency
+- Discrimination-aware data mining
+- Anonymization versus encryption
+
+The above will be complemented with hands-on assignments using various datasets and software tools (still to be determined).
+
+### Educational objective
+
+After the course student should have a good overview of the broader data science field. Through hands-on experience with real data sets, students will better understand the challenges in the different data science subdisciplines. Moreover, a few topics will be covered in more detail, also showing more theoretical considerations.
+
+### Contact
+
+[ids@pads.rwth-aachen.de](
