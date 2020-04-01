@@ -23,11 +23,11 @@ subtitle = ""
 
   [[content.filter_button]]
     name = "Process Mining"
-    category = "process-mining"
+    tag = "process-mining"
 
   [[content.filter_button]]
     name = "Big Data"
-    category = "big data"
+    tag = "big-data"
 
 
 [design]
