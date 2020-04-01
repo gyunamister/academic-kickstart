@@ -9,9 +9,9 @@
   weight = 10
 
 [[main]]
-  name = "Posts"
-  url = "#posts"
-  weight = 20
+  name = "Blog Posts"
+  url = "#new_posts"
+  weight = 40
 
 [[main]]
   name = "Projects"
@@ -21,12 +21,12 @@
 [[main]]
   name = "Publications"
   url = "#publications"
-  weight = 30
+  weight = 20
 
 [[main]]
   name = "Teaching"
   url = "#teaching"
-  weight = 40
+  weight = 30
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
