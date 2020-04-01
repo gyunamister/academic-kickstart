@@ -50,9 +50,9 @@ time_format = "3:04 PM"
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "gnpark@postech.ac.kr"
+email = "gnpark@pads.rwth-aachen.ac.kr"
 phone = ""
-address = "77, Cheongam-ro, Nam-gu, Pohang-si, Gyeongsangbuk-do, Republic of Korea"
+address = "Aachen, Germany"
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
 office_hours = ""

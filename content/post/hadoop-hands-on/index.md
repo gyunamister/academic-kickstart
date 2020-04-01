@@ -5,8 +5,8 @@ title: "Hadoop Hands-On (Process Mining with Hadoop)"
 subtitle: ""
 summary: ""
 authors: [Gyunam Park]
-tags: []
-categories: [big data]
+tags: [process-mining, big-data]
+categories: [process mining, big data]
 date: 2020-01-31T07:55:14+01:00
 lastmod: 2020-01-31T07:55:14+01:00
 featured: false

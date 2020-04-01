@@ -5,7 +5,7 @@ title: "The (easiest) Hadoop installation - MacOS/Linux"
 subtitle: ""
 summary: ""
 authors: [Gyunam Park]
-tags: [BigData,Hadoop,Installation]
+tags: [big-data,hadoop]
 categories: [big data]
 date: 2020-01-23T20:03:27+01:00
 lastmod: 2020-01-23T20:03:27+01:00
