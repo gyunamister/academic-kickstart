@@ -96,4 +96,4 @@ After the course student should have a good overview of the broader data science
 
 ### Contact
 
-[ids@pads.rwth-aachen.de](
+[ids@pads.rwth-aachen.de](mailto:ids@pads.rwth-aachen.de?subject=ids)
