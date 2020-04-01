@@ -23,7 +23,7 @@ subtitle = ""
 
   [[content.filter_button]]
     name = "Process Mining"
-    category = "process mining"
+    category = "process-mining"
 
   [[content.filter_button]]
     name = "Big Data"

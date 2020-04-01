@@ -6,7 +6,7 @@ subtitle: ""
 summary: ""
 authors: [Gyunam Park]
 tags: [process-mining]
-categories: [process mining,recommendation]
+categories: [process-mining,recommendation]
 date: 2020-03-15T18:34:29+01:00
 lastmod: 2020-03-15T18:34:29+01:00
 featured: false
