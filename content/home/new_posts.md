@@ -3,7 +3,7 @@
 widget = "portfolio"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 60  # Order that this section will appear.
+weight = 70  # Order that this section will appear.
 
 title = "Blog Posts"
 subtitle = ""
@@ -28,10 +28,6 @@ subtitle = ""
   [[content.filter_button]]
     name = "Deep Learning"
     category = "process-mining"
-
-  [[content.filter_button]]
-    name = "Other"
-    tag = "Demo"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
