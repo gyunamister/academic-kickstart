@@ -15,13 +15,13 @@ subtitle = ""
   page_type = "post"
 
   # Choose how much pages you would like to display (0 = all pages)
-  count = 0
+  #count = 0
 
   # Choose how many pages you would like to offset by
-  offset = 0
+  #offset = 0
 
   # Page order. Descending (desc) or ascending (asc) date.
-  order = "desc"
+  #order = "desc"
 
   # Filter posts by a taxonomy term.
   #[content.filters]
@@ -29,6 +29,7 @@ subtitle = ""
   #  category = ""
   #  publication_type = ""
   #  exclude_featured = false
+  filter_default = 0
   [[content.filter_button]]
     name = "All"
     category = "*"
