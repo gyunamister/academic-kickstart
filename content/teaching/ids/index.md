@@ -60,6 +60,7 @@ slides: ""
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+Reference: [PADS website](https://www.pads.rwth-aachen.de/cms/PADS/Studium/Kurse/~qgkn/Business-Process-Intelligence/lidx/1/)
 
 ### Course Goal
 
