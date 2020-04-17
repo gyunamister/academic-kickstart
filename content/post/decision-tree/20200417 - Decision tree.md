@@ -1,4 +1,3 @@
-# Decision Tree
 *(Last updated: 17. April. 2020)*
 
 This blog post is a supplement for Data Mining instruction at *Business Process Intelligence, RWTH-Aachen*.

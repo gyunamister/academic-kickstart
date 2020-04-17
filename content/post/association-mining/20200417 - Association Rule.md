@@ -1,4 +1,3 @@
-# Association Rule
 *(Last updated: 17. April. 2020)*
 
 This blog post is a supplement for Data Mining instruction at *Business Process Intelligence, RWTH-Aachen*.
@@ -6,7 +5,7 @@ This blog post is a supplement for Data Mining instruction at *Business Process 
 ### Concept
 Association rule aims at discovering interesting relations between variables (mostly sets of variables) in large databases. A typical example is that customers who purchase beer are likely also to buy diapers. Importantly, we need to distinguish frequent itemset and association rules. In essence, frequent itemset is a joint probability, e.g., $P(beer,diaper)$, while association rule is a conditional probability, e.g., $P(diaper|beer)$. Thus, we can say that association rule more likely reflects the _relation_ aspect.
 
-In fact, frequent itemsets are part of the calculation of association rules. Frequent itemsets are informally defined as itemsets having high _support_. $support(X)= \frac{N_{X }}{N}$, where $N$ is the number of instances and $N_X$ is the number of instances covering $X$. (You may understand it as the joint probability of elements in $X$). 
+In fact, frequent itemsets are part of the calculation of association rules. Frequent itemsets are informally defined as itemsets having high _support_. $support(X)= \frac{N_{X }}{N}$, where $N$ is the number of instances and $N_X$ is the number of instances covering $X$. (You may understand it as the joint probability of elements in $X$).
 
 Association rules are informally defined as relations between two sets having high _confidence_. $confidence(X \Rightarrow Y)= \frac{N_{X \cup Y}}{N_X}=\frac{support_{X \cup Y}}{support_X}$, where $N_X$ is the number of instances covering $X$ and $N_{X \cup Y}$ is the number of instances covering $X$ and $Y$. (You may understand it as conditional probability of two sets $X,Y$).
 
