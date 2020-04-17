@@ -46,6 +46,6 @@ An association rule is evaluated as "good" if it has higher _support_, _confiden
 ### Association Rule Exercise
 Given the example below, let's evaluate the association rule, $Tea \Rightarrow Coffee$.
 
-![IMAGE](resources/09E116AED17AB3B544DD8D47E242991B.jpg =718x211)
+![IMAGE](resources/09E116AED17AB3B544DD8D47E242991B.jpg)
 
 It has _support_ of $0.15$, _confidence_ of $0.75$, and _lift_ of $0.83$. Since _support_ is low and _lift_ is less than $1$, we can say that this rule is not desired.
