@@ -26,6 +26,10 @@ subtitle = ""
     tag = "process-mining"
 
   [[content.filter_button]]
+    name = "Data Mining"
+    tag = "data-mining"
+
+  [[content.filter_button]]
     name = "Big Data"
     tag = "big-data"
 
