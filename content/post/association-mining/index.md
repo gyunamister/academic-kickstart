@@ -37,7 +37,7 @@ Association rule aims at discovering interesting relations between variables (mo
 
 In fact, frequent itemsets are part of the calculation of association rules. Frequent itemsets are informally defined as itemsets having high _support_. $support(X)= \frac{N_{X }}{N}$, where $N$ is the number of instances and $N_X$ is the number of instances covering $X$. (You may understand it as the joint probability of elements in $X$).
 
-Association rules are informally defined as relations between two sets having high _confidence_. $confidence(X \Rightarrow Y)= \frac{N_{X \cup Y}}{N_X}=\frac{support_{X \cup Y}}{support_X}$, where $N_X$ is the number of instances covering $X$ and $N_{X \cup Y}$ is the number of instances covering $X$ and $Y$. (You may understand it as conditional probability of two sets $X,Y$).
+Association rules are informally defined as relations between two sets having high _confidence_. $confidence(X \Rightarrow Y)= \frac{N_{X \cup Y}}{N_X}=\frac{support_{X \cup Y}}{support_X}$, where $N_X$ is the number of instances covering $X$ and $N_{X \cup Y}$ is the number of instances covering $X$ and $Y$. (You may understand it as conditional probability of two sets $X, Y$).
 
 An association rule is evaluated as "good" if it has higher _support_, _confidence_ closer to 1, and _lift_ higher than 1.
 
