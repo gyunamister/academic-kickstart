@@ -15,3 +15,5 @@ header:
 ---
 
 Add your *content* here...
+
+{{% staticref "files/cv.pdf" %}}Download my CV{{% /staticref %}}
