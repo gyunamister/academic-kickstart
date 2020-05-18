@@ -1,16 +1,48 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Association Mining in a nutshell"
-subtitle: ""
-summary: ""
+title: "Action-oriented Process Mining (AOPM) (Technical Manual)"
 authors: [Gyunam Park]
-tags: [data-mining]
-categories: [data mining]
-date: 2020-04-17T18:32:33+02:00
-lastmod: 2020-04-17T18:32:33+02:00
+date: 2020-05-15
+
+# Schedule page publish date (NOT publication's date).
+publishDate: 2020-01-23T20:06:53+01:00
+
+# Publication type.
+# Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
+# 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
+# 7 = Thesis; 8 = Patent
+publication_types: ["4"]
+
+# Publication name and optional abbreviated publication name.
+# publication: "Decision Support Systems"
+# publication_short: ""
+
+# abstract: "Online operational support is gaining increasing interest due to the availability of real-time data and sufficient computing power, such as predictive business process monitoring. Predictive business process monitoring aims at providing timely information that enables proactive and corrective actions to improve process enactments and mitigate risks. There are a handful of research works focusing on the predictions at the instance level. However, it is more practical to predict the performance of processes at the process model level and detect potential weaknesses in the process to facilitate the proactive actions that will improve the process execution. Thus, in this paper, we propose a novel method to predict the future performances of a business process at the process model level. More in detail, we construct an annotated transition system and generate a process representation matrix from it. Based on the process representation matrix, we build performance prediction models using deep neural networks that consider both spatial and temporal dependencies present in the underlying business process. To validate the proposed method, we performed case studies on three real-life logs."
+
+# Summary. An optional shortened abstract.
+summary: ""
+
+tags: [technical-manual]
+categories: []
 featured: false
-draft: false
+
+# Custom links (optional).
+#   Uncomment and edit lines below to show custom links.
+# links:
+# - name: Follow
+#   url: https://twitter.com
+#   icon_pack: fab
+#   icon: twitter
+
+url_pdf:
+url_code:
+url_dataset:
+url_poster:
+url_project:
+url_slides:
+url_source:
+url_video:
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -20,33 +52,31 @@ image:
   focal_point: ""
   preview_only: false
 
-# Projects (optional).
-#   Associate this post with one or more of your projects.
+# Associated Projects (optional).
+#   Associate this publication with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+#   E.g. `internal-project` references `content/project/internal-project/index.md`.
+#   Otherwise, set `projects: []`.
 projects: []
+
+# Slides (optional).
+#   Associate this publication with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides: "example"` references `content/slides/example/index.md`.
+#   Otherwise, set `slides: ""`.
+slides: ""
+
 ---
-*(Last updated: 17. April. 2020)*
+## Overview
 
-This blog post is a supplement for Data Mining instruction at *Business Process Intelligence, RWTH-Aachen*.
+## Tool Description
 
-### Concept
+## Supported constraint formulas and action formulas
 
-Association rule aims at discovering interesting relations between variables (mostly sets of variables) in large databases. A typical example is that customers who purchase beer are likely also to buy diapers. Importantly, we need to distinguish frequent itemset and association rules. In essence, frequent itemset is a joint probability, e.g., $P(beer,diaper)$, while association rule is a conditional probability, e.g., $P(diaper|beer)$. Thus, we can say that association rule more likely reflects the _relation_ aspect.
+## Constraint Formula Definition Language
 
-In fact, frequent itemsets are part of the calculation of association rules. Frequent itemsets are informally defined as itemsets having high _support_. $support(X)= \frac{N_{X }}{N}$, where $N$ is the number of instances and $N_X$ is the number of instances covering $X$. (You may understand it as the joint probability of elements in $X$).
+## Action Formula Definition Language
 
-Association rules are informally defined as relations between two sets having high _confidence_. $confidence(X \Rightarrow Y)= \frac{N_{X \cup Y}}{N_X}=\frac{support_{X \cup Y}}{support_X}$, where $N_X$ is the number of instances covering $X$ and $N_{X \cup Y}$ is the number of instances covering $X$ and $Y$. (You may understand it as conditional probability of two sets $X, Y$).
+## Experimental environment
 
-An association rule is evaluated as "good" if it has higher _support_, _confidence_ closer to 1, and _lift_ higher than 1.
-
-(To deal with _lift_)
-
-### Association Rule Exercise
-
-Given the example below, let's evaluate the association rule, $Tea \Rightarrow Coffee$.
-
-![IMAGE](quiver-image-url/09E116AED17AB3B544DD8D47E242991B.jpg)
-
-It has _support_ of $0.15$, _confidence_ of $0.75$, and _lift_ of $0.83$. Since _support_ is low and _lift_ is less than $1$, we can say that this rule is not desired.
+## Remarks
